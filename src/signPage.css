@@ -1,0 +1,296 @@
+@import "~antd/dist/antd.css";
+/* Style the video: 100% width and height to cover the entire window */
+.signPage .login-form,
+.signPage .register-form,
+.signPage .forget-form,
+.signPage .enterCode-form,
+.signPage .resetPassword-form {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: rgba(38, 38, 38, 0.7);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  border-radius: 10px;
+  border: inherit;
+  box-shadow: 0 0 4px 1px #262626;
+}
+.signPage .login-form .login-form-desc,
+.signPage .register-form .login-form-desc,
+.signPage .forget-form .login-form-desc,
+.signPage .enterCode-form .login-form-desc,
+.signPage .resetPassword-form .login-form-desc,
+.signPage .login-form .register-form-desc,
+.signPage .register-form .register-form-desc,
+.signPage .forget-form .register-form-desc,
+.signPage .enterCode-form .register-form-desc,
+.signPage .resetPassword-form .register-form-desc {
+  text-align: left;
+  color: white;
+  padding-bottom: 3px;
+}
+.signPage .login-form .username-input,
+.signPage .register-form .username-input,
+.signPage .forget-form .username-input,
+.signPage .enterCode-form .username-input,
+.signPage .resetPassword-form .username-input,
+.signPage .login-form .password-input,
+.signPage .register-form .password-input,
+.signPage .forget-form .password-input,
+.signPage .enterCode-form .password-input,
+.signPage .resetPassword-form .password-input,
+.signPage .login-form .newPassword-input,
+.signPage .register-form .newPassword-input,
+.signPage .forget-form .newPassword-input,
+.signPage .enterCode-form .newPassword-input,
+.signPage .resetPassword-form .newPassword-input {
+  background-color: rgba(25, 25, 25, 0.75) !important;
+  border: 0px;
+  color: white !important;
+}
+.signPage .login-form .username-input:hover,
+.signPage .register-form .username-input:hover,
+.signPage .forget-form .username-input:hover,
+.signPage .enterCode-form .username-input:hover,
+.signPage .resetPassword-form .username-input:hover,
+.signPage .login-form .password-input:hover,
+.signPage .register-form .password-input:hover,
+.signPage .forget-form .password-input:hover,
+.signPage .enterCode-form .password-input:hover,
+.signPage .resetPassword-form .password-input:hover,
+.signPage .login-form .newPassword-input:hover,
+.signPage .register-form .newPassword-input:hover,
+.signPage .forget-form .newPassword-input:hover,
+.signPage .enterCode-form .newPassword-input:hover,
+.signPage .resetPassword-form .newPassword-input:hover {
+  background-color: #0E0E0E !important;
+  border-color: #191919;
+  color: inherit;
+}
+.signPage .login-form .username-input:focus,
+.signPage .register-form .username-input:focus,
+.signPage .forget-form .username-input:focus,
+.signPage .enterCode-form .username-input:focus,
+.signPage .resetPassword-form .username-input:focus,
+.signPage .login-form .password-input:focus,
+.signPage .register-form .password-input:focus,
+.signPage .forget-form .password-input:focus,
+.signPage .enterCode-form .password-input:focus,
+.signPage .resetPassword-form .password-input:focus,
+.signPage .login-form .newPassword-input:focus,
+.signPage .register-form .newPassword-input:focus,
+.signPage .forget-form .newPassword-input:focus,
+.signPage .enterCode-form .newPassword-input:focus,
+.signPage .resetPassword-form .newPassword-input:focus {
+  background-color: #0E0E0E;
+  border-color: inherit;
+}
+.signPage .login-form .ant-checkbox > .ant-checkbox-inner,
+.signPage .register-form .ant-checkbox > .ant-checkbox-inner,
+.signPage .forget-form .ant-checkbox > .ant-checkbox-inner,
+.signPage .enterCode-form .ant-checkbox > .ant-checkbox-inner,
+.signPage .resetPassword-form .ant-checkbox > .ant-checkbox-inner {
+  background: #262626 !important;
+  border-color: white !important;
+}
+.signPage .login-form .ant-checkbox-checked .ant-checkbox-inner,
+.signPage .register-form .ant-checkbox-checked .ant-checkbox-inner,
+.signPage .forget-form .ant-checkbox-checked .ant-checkbox-inner,
+.signPage .enterCode-form .ant-checkbox-checked .ant-checkbox-inner,
+.signPage .resetPassword-form .ant-checkbox-checked .ant-checkbox-inner {
+  background: #009647 !important;
+  border-color: #009647 !important;
+}
+.signPage .login-form .ant-checkbox-checked::after,
+.signPage .register-form .ant-checkbox-checked::after,
+.signPage .forget-form .ant-checkbox-checked::after,
+.signPage .enterCode-form .ant-checkbox-checked::after,
+.signPage .resetPassword-form .ant-checkbox-checked::after {
+  border: 1px solid #009647;
+}
+.signPage .login-form .ant-checkbox-wrapper,
+.signPage .register-form .ant-checkbox-wrapper,
+.signPage .forget-form .ant-checkbox-wrapper,
+.signPage .enterCode-form .ant-checkbox-wrapper,
+.signPage .resetPassword-form .ant-checkbox-wrapper {
+  color: white;
+  float: left;
+}
+.signPage .login-form .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.signPage .register-form .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.signPage .forget-form .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.signPage .enterCode-form .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.signPage .resetPassword-form .ant-checkbox-wrapper:hover .ant-checkbox-inner {
+  background: #464646 !important;
+}
+.signPage .login-form .ant-checkbox-wrapper-checked:hover .ant-checkbox-inner,
+.signPage .register-form .ant-checkbox-wrapper-checked:hover .ant-checkbox-inner,
+.signPage .forget-form .ant-checkbox-wrapper-checked:hover .ant-checkbox-inner,
+.signPage .enterCode-form .ant-checkbox-wrapper-checked:hover .ant-checkbox-inner,
+.signPage .resetPassword-form .ant-checkbox-wrapper-checked:hover .ant-checkbox-inner {
+  background: #0DD166 !important;
+}
+.signPage .login-form .login-form-forgot,
+.signPage .register-form .login-form-forgot,
+.signPage .forget-form .login-form-forgot,
+.signPage .enterCode-form .login-form-forgot,
+.signPage .resetPassword-form .login-form-forgot {
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: right;
+  color: white;
+  text-decoration: underline;
+}
+.signPage .login-form .login-form-forgot:hover,
+.signPage .register-form .login-form-forgot:hover,
+.signPage .forget-form .login-form-forgot:hover,
+.signPage .enterCode-form .login-form-forgot:hover,
+.signPage .resetPassword-form .login-form-forgot:hover {
+  color: white;
+  text-decoration: underline;
+  background: #515151;
+}
+.signPage .login-form .login-form-button,
+.signPage .register-form .login-form-button,
+.signPage .forget-form .login-form-button,
+.signPage .enterCode-form .login-form-button,
+.signPage .resetPassword-form .login-form-button,
+.signPage .login-form .register-form-button,
+.signPage .register-form .register-form-button,
+.signPage .forget-form .register-form-button,
+.signPage .enterCode-form .register-form-button,
+.signPage .resetPassword-form .register-form-button,
+.signPage .login-form .codeRequest-buttom-form,
+.signPage .register-form .codeRequest-buttom-form,
+.signPage .forget-form .codeRequest-buttom-form,
+.signPage .enterCode-form .codeRequest-buttom-form,
+.signPage .resetPassword-form .codeRequest-buttom-form,
+.signPage .login-form .submit-form-button,
+.signPage .register-form .submit-form-button,
+.signPage .forget-form .submit-form-button,
+.signPage .enterCode-form .submit-form-button,
+.signPage .resetPassword-form .submit-form-button {
+  width: 100%;
+  background: #009647 !important;
+  border-radius: 5px;
+  border-color: #009647 !important;
+  height: 50px;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.signPage .login-form .login-form-button:hover,
+.signPage .register-form .login-form-button:hover,
+.signPage .forget-form .login-form-button:hover,
+.signPage .enterCode-form .login-form-button:hover,
+.signPage .resetPassword-form .login-form-button:hover,
+.signPage .login-form .register-form-button:hover,
+.signPage .register-form .register-form-button:hover,
+.signPage .forget-form .register-form-button:hover,
+.signPage .enterCode-form .register-form-button:hover,
+.signPage .resetPassword-form .register-form-button:hover,
+.signPage .login-form .codeRequest-buttom-form:hover,
+.signPage .register-form .codeRequest-buttom-form:hover,
+.signPage .forget-form .codeRequest-buttom-form:hover,
+.signPage .enterCode-form .codeRequest-buttom-form:hover,
+.signPage .resetPassword-form .codeRequest-buttom-form:hover,
+.signPage .login-form .submit-form-button:hover,
+.signPage .register-form .submit-form-button:hover,
+.signPage .forget-form .submit-form-button:hover,
+.signPage .enterCode-form .submit-form-button:hover,
+.signPage .resetPassword-form .submit-form-button:hover {
+  color: white;
+  font-size: 19px;
+  background: #00b957 !important;
+  border-color: #009647 !important;
+}
+.signPage .login-form .codeRequest-buttom-form,
+.signPage .register-form .codeRequest-buttom-form,
+.signPage .forget-form .codeRequest-buttom-form,
+.signPage .enterCode-form .codeRequest-buttom-form,
+.signPage .resetPassword-form .codeRequest-buttom-form {
+  margin-bottom: 10px;
+}
+.signPage .login-form .text-align,
+.signPage .register-form .text-align,
+.signPage .forget-form .text-align,
+.signPage .enterCode-form .text-align,
+.signPage .resetPassword-form .text-align {
+  text-align: center;
+  padding-top: 5px;
+}
+.signPage .login-form .ant-form-item-explain,
+.signPage .register-form .ant-form-item-explain,
+.signPage .forget-form .ant-form-item-explain,
+.signPage .enterCode-form .ant-form-item-explain,
+.signPage .resetPassword-form .ant-form-item-explain {
+  text-align: left;
+}
+.signPage .cursor-pointer {
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+.signPage .videoContainer {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.signPage .video {
+  display: block;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  filter: blur(2px);
+}
+.register-confirm-form .ant-modal-content {
+  color: #ffffff;
+  box-shadow: 0 0 2px 1px #010101;
+  padding: 10px;
+  background-color: #C6C6C6;
+  border-radius: 5px;
+}
+.register-confirm-form .ant-modal-content .ant-modal-header {
+  padding: 8px;
+  background-color: #C6C6C6;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 0px;
+}
+.register-confirm-form .ant-modal-content .ant-modal-title {
+  color: #4D4D4D;
+  text-align: center;
+  font-weight: bolder;
+}
+.register-confirm-form .ant-modal-content .ant-modal-body {
+  color: white;
+  background-color: #6E6E6E;
+  border-top: 0px;
+}
+.register-confirm-form .ant-modal-content .ant-modal-footer {
+  color: white;
+  background-color: #6E6E6E;
+  border-top: 0px;
+}
+.register-confirm-form .ant-modal-content .ant-modal-footer > .ant-btn {
+  background-color: #C6C6C6;
+  color: #4D4D4D;
+  display: block;
+  top: 30px;
+  margin-bottom: 10px;
+  border-color: #010101;
+  width: 80%;
+  margin: 0px auto !important;
+}
+.register-confirm-form .ant-modal-content .ant-modal-footer > .ant-btn-primary {
+  top: -50px !important;
+}
+/*# sourceMappingURL=signPage.css.map */

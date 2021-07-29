@@ -1,0 +1,175 @@
+@import "~antd/dist/antd.css";
+/* Style the video: 100% width and height to cover the entire window */
+.signPage {
+	.login-form, .register-form, .forget-form, .enterCode-form, .resetPassword-form {
+		width: 500px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		background-color: rgba(38, 38, 38, 0.7);
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 50px;
+		border-radius: 10px;
+		border: inherit;
+		box-shadow: 0 0 4px 1px rgb(38, 38, 38, 0.7);
+		
+		.login-form-desc, .register-form-desc {
+			text-align: left;
+			color: white;
+			padding-bottom: 3px;
+		}
+		.username-input, .password-input, .newPassword-input {
+			background-color: rgba(25, 25, 25, 0.75) !important;
+			border: 0px;
+			color: white !important;
+			&:hover {
+				background-color: #0E0E0E !important;
+				border-color: rgb(25, 25, 25);
+				color: inherit;
+			}
+			&:focus {
+				background-color: #0E0E0E;
+				border-color: inherit;
+			}
+		}
+		.ant-checkbox {
+			>.ant-checkbox-inner {
+				background: #262626 !important;
+				border-color: white !important;
+			}
+		}
+		.ant-checkbox-checked {
+			.ant-checkbox-inner {
+				background: #009647 !important;
+				border-color: #009647 !important;
+			}
+			&::after {
+				border: 1px solid #009647;
+			}
+		}
+		.ant-checkbox-wrapper {
+			color: white;
+			float: left;
+			&:hover {
+				.ant-checkbox-inner {
+					background: #464646 !important;
+				}
+			}
+		}
+		.ant-checkbox-wrapper-checked {
+			&:hover {
+				.ant-checkbox-inner {
+					background: #0DD166 !important;
+				}
+			}
+		}
+		.login-form-forgot {
+			border-radius: 5px;
+			padding-left: 10px;
+			padding-right: 10px;
+			float: right;
+			color: white;
+			text-decoration: underline;
+			&:hover {
+				color: white;
+				text-decoration: underline;
+				background: #515151;
+			}
+		}
+		.login-form-button, .register-form-button, .codeRequest-buttom-form, .submit-form-button{
+			width: 100%;
+			background: rgb(0, 150, 71) !important;
+			border-radius: 5px;
+			border-color: rgb(0, 150, 71) !important;
+			height: 50px;
+			color: white;
+			font-size: 18px;
+			font-weight: bolder;
+			margin: 0 0 0 0;
+			padding: 0 0 0 0;
+			&:hover {
+				color: white;
+				font-size: 19px;
+				background: #00b957 !important;
+				border-color: rgb(0, 150, 71) !important;
+			}
+		}
+		.codeRequest-buttom-form {
+			margin-bottom: 10px;
+		}
+		.text-align {
+			text-align: center;
+			padding-top: 5px;
+		}
+		.ant-form-item-explain {
+			text-align: left;
+		}
+	}
+	.cursor-pointer {
+		border: none;
+		background: none;
+		color: white;
+		cursor: pointer;
+	}
+
+	.videoContainer {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		background-color: black;
+	}
+	.video {
+		display: block;
+		object-fit: cover;
+		width: 100vw;
+		height: 100vh;
+		filter: blur(2px);
+	}
+}
+.register-confirm-form {
+	.ant-modal-content {
+		color: #ffffff;
+		box-shadow: 0 0 2px 1px #010101;
+		padding: 10px;
+		background-color: #C6C6C6;
+		border-radius: 5px;
+		
+		.ant-modal-header {
+			padding: 8px;
+			background-color: #C6C6C6;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			border-bottom: 0px;
+		}
+		.ant-modal-title {
+			color: #4D4D4D;
+			text-align: center;
+			font-weight: bolder;
+		}
+		.ant-modal-body {
+			color: white;
+			background-color: #6E6E6E;
+			border-top: 0px;
+		}
+		.ant-modal-footer {
+			color: white;
+			background-color: #6E6E6E;
+			border-top: 0px;
+			>.ant-btn {
+				background-color: #C6C6C6;
+				color: #4D4D4D;
+				display: block;
+				top: 30px;
+				margin-bottom: 10px;
+				border-color: #010101;
+				width: 80%;
+				margin: 0px auto !important;
+			}
+			>.ant-btn-primary {
+				top: -50px !important;
+			}
+		}
+	}
+}
